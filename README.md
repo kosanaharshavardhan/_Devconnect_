@@ -4,41 +4,64 @@ Showcase your projects and get feedback with ease — a full-stack platform to h
 
 💡 Overview
 
-Devconnect is a full-stack MERN-style web application designed to let developers:
+Devconnect is a full-stack MERN-style web application designed to help developers:
 
 Showcase projects in a portfolio-like format
 
-Receive feedback from others
+Receive feedback from other developers
 
-Connect with developers or collaborators
+Connect with collaborators and peers
 
-Manage and update profile and project info
+Manage and update profiles and project information
 
 This repository contains both the frontend (client/) and backend (server/) code.
 
 🚀 Features
 
 ✔ User authentication (sign up / login)
-✔ Create and manage your developer profile
+
+✔ Create and manage developer profiles
+
 ✔ Showcase projects with descriptions, links, and tags
+
 ✔ Leave feedback or comments
+
 ✔ Connect with other developers
+
 ✔ REST APIs for all functionality
 
 🧱 Tech Stack
 
-Frontend: React, HTML, CSS, JavaScript
+Frontend
 
-Backend: Node.js, Express.js
+React
 
-Database: MongoDB (via Mongoose)
+HTML
 
-Authentication: JWT (JSON Web Tokens)
+CSS
 
-Environment: .env config for secrets
+JavaScript
 
-📁 Repo Structure
-_Devconnect_/
+Backend
+
+Node.js
+
+Express.js
+
+Database
+
+MongoDB (via Mongoose)
+
+Authentication
+
+JWT (JSON Web Tokens)
+
+Environment Configuration
+
+.env for secrets and environment variables
+
+📁 Repository Structure
+Devconnect/
 ├── client/                # Frontend React app
 ├── server/                # Backend Express API
 ├── .gitignore
@@ -47,64 +70,57 @@ _Devconnect_/
 🛠 Getting Started
 Prerequisites
 
-Make sure you have installed:
+Make sure you have the following installed:
 
 Node.js
 
 npm
 
-MongoDB (local or Atlas)
+MongoDB (local or MongoDB Atlas)
 
 Installation
-
-Clone the repo
-
+Clone the repository
 git clone https://github.com/kosanaharshavardhan/_Devconnect_.git
-cd _Devconnect_
-
+cd Devconnect
 
 Install backend dependencies
-
 cd server
 npm install
 
-
 Install frontend dependencies
-
 cd ../client
 npm install
 
-⚙️ Setup Environment Variables
+⚙️ Environment Variables Setup
 
-In the server directory, create a .env file like:
+In the server directory, create a .env file and add:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
-🏃 Running the App
+▶️ Running the Application
 
 Open two terminals:
 
 Terminal 1 — Backend
-
 cd server
 npm start
 
-
 Terminal 2 — Frontend
-
 cd client
 npm start
 
 
-The React app should start (e.g., at http://localhost:3000
-) and the API at http://localhost:5000
-.
+The application will run on:
+
+Frontend: http://localhost:3000
+
+Backend: http://localhost:5000
 
 🤝 Contributing
 
-Contributions are welcome! Here’s how to help:
+Contributions are welcome!
 
 Fork the project
 
@@ -118,4 +134,4 @@ Open a Pull Request
 
 📄 License
 
-This project is open-source
+This project is open-source.
